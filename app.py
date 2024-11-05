@@ -6,7 +6,7 @@ import folium
 st.title("Mapa Empreses Campiones")
 
 # Cargar el mapa HTML de Folium
-map_path = "C:/Users/Toni Morey/Desktop/Altres coses/Folium/mapa_empresas.html"  # Asegúrate de que la ruta sea correcta
+map_path = "mapa_empresas.html"  # Asegúrate de que la ruta sea correcta
 with open(map_path, "r", encoding="utf-8") as file:
     mapa_html = file.read()
 
